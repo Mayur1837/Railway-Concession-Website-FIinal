@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+x * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* loader */
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.383);
+}
+.form-btn {
+  width: 250px !important;
+  margin-top: 30px !important ;
+  margin-bottom: 20px !important ;
+}
+/* Add this CSS in your main stylesheet or create a new CSS file */
+.document-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Reduce the gap between images */
+}
+
+.document-wrapper {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Add transition for smooth zoom-in effect */
+}
+
+.document-wrapper:hover {
+  transform: scale(1.1); /* Zoom-in effect on hover */
+}
+
+.uploaded-document {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust the maximum height for the image */
+  object-fit: contain;
+  border-radius: 5px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+}
+h1 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+/* input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid black;
+} */
+.add {
+  background-color: black;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.todo {
+  position: relative;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}

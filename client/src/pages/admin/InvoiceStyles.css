@@ -1,0 +1,73 @@
+.name {
+  margin-top: 194px;
+  margin-right: 360px;
+}
+.abc {
+  margin-right: 730px;
+  margin-top: 10px;
+}
+.birth {
+  margin-top: -25px;
+}
+.birthdate {
+  margin-right: 75px;
+}
+.age {
+  margin-right: 456px;
+}
+.box {
+  margin-top: 80px;
+}
+.lclass {
+  margin-right: 35px;
+  font-size: 13px;
+}
+.lperiod {
+  margin-right: 30px;
+  font-size: 13px;
+}
+.lfrom {
+  margin-right: 25px;
+  /* margin-top: 15px; */
+  font-size: 13px;
+}
+.lto {
+  margin-right: 60px;
+  font-size: 13px;
+}
+.rclass {
+  margin-right: 69px;
+}
+.rto {
+  margin-right: 265px;
+}
+.rfrom {
+  margin-right: 80px;
+}
+.rperiod {
+  margin-right: 50px;
+}
+.prevfrom {
+  margin-right: 80.5px;
+}
+.prvticketno {
+  margin-right: 57px;
+}
+.prvclass {
+  margin-right: 272px;
+}
+.enddate {
+  margin-right: 498px;
+}
+.prevto {
+  margin-right: 410px;
+}
+
+.lprevticketno {
+  margin-top: 8px;
+  margin-right: 706px;
+}
+.lprevenddate {
+  margin-top: 25px;
+  margin-right: 700px;
+}

@@ -1,0 +1,14 @@
+
+.temp{
+    display: flex;
+    background:"white";
+ border:0.5px solid rgb(185, 185, 185);
+ height:5%;
+  text-align:center;	
+	flex-direction: row;
+	justify-content: center;
+    font-style: normal;
+    /* color: red; */
+    
+	align-items: center;
+}
